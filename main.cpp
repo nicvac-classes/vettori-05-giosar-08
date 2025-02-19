@@ -1,11 +1,36 @@
-#include <iostream>
+
 using namespace std;
 
 int main() {
-    string nome;
-    cout << "Inserisci il tuo nome: ";
-    cin >> nome;
-    cout << "Ciao " <<nome<< "!" << endl;
-}
+    int n, i, s, sm;
+    m;
 
-//LEGGERE LE ISTRUZIONI NEL FILE README.md
+    cout << "numeri totali: ";
+    cin >> n;
+
+    v[n];
+    i = 0;
+    s = 0;
+ 
+    while (i < n) {
+        v[i] = rand() % 1001; 
+        s += v[i];
+        i++;
+    }
+
+   
+    i = 0;
+    sm = 0;
+
+    while (i < n) {
+        if (v[i] > m) {
+            cout << "il numero nella posizione " << i + 1 << " è sopra la media con un valore di " << v[i] << endl;
+            sm++;
+        }
+    ;
+    }
+
+    cout << "valori superiori alla media totali: " << sm << endl;
+
+    return 0;
+}
